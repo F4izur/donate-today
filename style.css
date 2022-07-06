@@ -51,7 +51,7 @@ div.img{
 .donate-today h1{
     font-size: 30px;
 }
-.donate-today h4{
+.donate-today p{
     word-spacing: 10px;
     letter-spacing: 1px;
 }
@@ -87,4 +87,25 @@ div.img{
 }
 
 /* section 3 (Donation Type)*/
+
+.d-plan{
+    text-align: center;
+    margin-top: 100px;
+    word-spacing: 10px;
+    letter-spacing: 1px;
+}
+.d-plan h1{
+    font-size: 30px;
+}
+.types{
+    display: flex;
+}
+.plan{
+    width: 1000%;
+    background-color: #FFF4D6;
+    margin: 20px;
+    padding: 50px 20px;
+}
+
+/* section 4 (Success)*/
 

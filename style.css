@@ -10,7 +10,7 @@ body{
 div.img{
     position: relative;
 }
-.donate{
+.donate-text{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -22,17 +22,17 @@ div.img{
     border-radius: 20px;
     box-shadow: 1px 1px 10px black;
 }
-.donate h1{
+.donate-text h1{
     font-size: 50px;
     font-weight: 900;
 }
-.donate h4{
+.donate-text h4{
     font-size: 20px;
     word-spacing: 10px;
     letter-spacing: 3px;
     text-transform: uppercase;
 }
-.donate a{
+.donate-text a{
     text-decoration: none;
     background-color: #FF5959;
     box-shadow: 0.1px 0.1px 4px black;
@@ -42,5 +42,49 @@ div.img{
     text-shadow: 1px 1px 5px black;
 }
 
-/* section 2 */
+/* section 2 (Donation Ammount) */
+
+.donate-today{
+    margin-top: 50px;
+    text-align: center;
+}
+.donate-today h1{
+    font-size: 30px;
+}
+.donate-today h4{
+    word-spacing: 10px;
+    letter-spacing: 1px;
+}
+#amount{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.tk{
+    background-color: #7c6c6c28;
+    border-radius: 5px;
+    color: #FF5959;
+    font-size: 30px;
+    font-weight: 900;
+    width: 10%;
+    height: 10%;
+    margin: 10px 10px;
+}
+.custom{
+    text-align: center;
+}
+.custom input{
+    margin-bottom: 40px;
+}
+.custom a{
+    text-decoration: none;
+    background-color: #FF5959;
+    box-shadow: 0.1px 0.1px 4px black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+/* section 3 (Donation Type)*/
 

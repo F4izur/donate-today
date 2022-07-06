@@ -70,11 +70,15 @@ div.img{
     height: 10%;
     margin: 10px 10px;
 }
+#tk500{
+    border: 5px solid #FF5959;
+    box-shadow: 1px 1px 10px;
+}
 .custom{
     text-align: center;
 }
 .custom input{
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 .custom a{
     text-decoration: none;
@@ -84,6 +88,14 @@ div.img{
     border-radius: 5px;
     color: white;
     text-shadow: 1px 1px 5px black;
+}
+.custom [type=text]{
+    width: 30%;
+    margin: 8px 0px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 
 /* section 3 (Donation Type)*/
@@ -108,4 +120,41 @@ div.img{
 }
 
 /* section 4 (Success)*/
+
+#success{
+    display: flex;
+}
+.stories{
+    width: 100%;
+    padding: 80px;
+}
+#content{
+    margin-top: 80px;
+}
+
+/* section 5 (Get my Updates)*/
+
+#updates{
+    text-align: center;
+}
+#subscribe{
+    text-align: center;
+}
+#subscribe [type=text]{
+    width: 25%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+#subscribe [type=submit]{
+    width: 10%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #FF5959;
+    color: white;
+}
+
+/* section 5 (Footer) */
 

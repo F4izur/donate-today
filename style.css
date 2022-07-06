@@ -2,4 +2,45 @@ body{
     font-family: 'Kantumruy Pro', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
+    margin: 0%;
 }
+
+/* section 1 */
+
+div.img{
+    position: relative;
+}
+.donate{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 20px;
+    background-color: rgba(255, 255, 255, 0.473);
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+}
+.donate h1{
+    font-size: 50px;
+    font-weight: 900;
+}
+.donate h4{
+    font-size: 20px;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.donate a{
+    text-decoration: none;
+    background-color: #FF5959;
+    box-shadow: 0.1px 0.1px 4px black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
+/* section 2 */
+

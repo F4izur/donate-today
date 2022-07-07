@@ -77,9 +77,6 @@ div.img{
 .custom{
     text-align: center;
 }
-.custom input{
-    margin-bottom: 60px;
-}
 .custom a{
     text-decoration: none;
     background-color: #FF5959;
@@ -91,7 +88,7 @@ div.img{
 }
 .custom [type=text]{
     width: 30%;
-    margin: 8px 0px;
+    margin: 50px 0px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -158,3 +155,10 @@ div.img{
 
 /* section 5 (Footer) */
 
+footer{
+    background-color: #0B0D17;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    margin-top: 100px;
+}

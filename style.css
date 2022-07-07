@@ -121,6 +121,9 @@ div.img{
 #success{
     display: flex;
 }
+#success{
+    font-size: 20px;
+}
 .stories{
     width: 100%;
     padding: 80px;
@@ -133,6 +136,9 @@ div.img{
 
 #updates{
     text-align: center;
+}
+#updates{
+    font-size: 20px;
 }
 #subscribe{
     text-align: center;
